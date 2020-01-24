@@ -1,0 +1,42 @@
+????????????????????
+
+<figure class="sityuu">
+    <img src="image/sityuu.png" alt="">
+</figure>
+<figure class="shirushi">
+    <img src="image/shirushi.png" alt="">
+</figure>
+<figure class="cut">
+    <img src="image/cut.png" alt="">
+</figure>
+
+
+?????????????????
+
+
+????position??????
+
+
+??????????html,css
+
+<figure class="brown_do">
+    <img src="image/do.png" alt="">
+</figure>
+<figure class="black_do">
+    <img src="image/kurodo.png" alt="">
+</figure>
+
+
+.black_do {
+    position: absolute;
+    top: calc(50% - 68px);
+    left: calc(50% - 68px);
+}
+
+.brown_do img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
