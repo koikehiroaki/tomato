@@ -66,6 +66,18 @@ $('.first_text').parallaxFit({
     easing: 'linear',
 });
 
+$('.move_yazirusi').parallaxFit({
+    start: 0,
+    end: 90,
+    fromStyle: {
+        opacity: '1'
+    },
+    toStyle: {
+        opacity: '0'
+    },
+    easing: 'linear',
+});
+
 $('.preparation').parallaxFit({
     start: 99,
     end: 100,
